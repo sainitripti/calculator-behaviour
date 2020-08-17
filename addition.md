@@ -32,7 +32,8 @@ Scenario: Addition of fractions
   And I type in "second fraction"
   And I press "equals"
   
-  Then I see "added fraction" with no common factor in numerator and denominator form as the result
+  Then I see "added fraction"
+  with no common factor in numerator and denominator form as the result
 
 Scenario: Addition of "negative number" and "positive number"
   
